@@ -1,4 +1,5 @@
 name: 'Hello World'
+author: 'Saw-mon & Natalie'
 description: 'Greet someone and record the time'
 inputs:
     who-to-greet:
@@ -15,3 +16,7 @@ runs:
     image: 'Dockerfile'
     args:
         - ${{ inputs.who-to-greet }}
+
+branding:
+    icon: 'wifi'
+    color: 'blue'

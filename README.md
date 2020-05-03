@@ -15,6 +15,8 @@ The time we greeted you
 
 ## Example Usage
 
- uses: actions/hello-world-docker-action@v1
- with:
+```yml
+uses: actions/hello-world-docker-action@v1
+with:
     who-to-greet: 'Mona the Octocat'
+```
